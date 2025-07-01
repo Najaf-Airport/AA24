@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>لوحة تحكم المشرف</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="container admin-page">
+    <h1>لوحة تحكم المشرف</h1>
+    <div>
+      <label>فلترة حسب المستخدم:</label>
+      <select id="userFilter"><option value="">الكل</option></select>
+    </div>
+    <div>
+      <label>فلترة حسب الشهر:</label>
+      <select id="monthFilter"><option value="">الكل</option></select>
+    </div>
+    <button id="logoutBtn">🚪 تسجيل الخروج</button>
+    <div id="flights-summary"></div>
+    <div id="all-flights" class="saved-flights"></div>
+  </div>
+  <script type="module" src="js/admin.js"></script>
+</body>
+</html>
